@@ -1,5 +1,5 @@
 a = int(input())
-if a % 2 == 0 or a != 0:
+if a % 2 == 0 and a != 0:
     print("Четное")
 else:
     print('Нечетное')
