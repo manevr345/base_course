@@ -13,6 +13,6 @@ print(f' U = {u}')
 T = 200
 era = 300
 
-N = 2/math.sqrt(math.pi) * math.sqrt(hplanck) * (sigma * T)**1.5 * era**(T/2) * (math.e)**(era/(sigma * T))
+N = 2/math.sqrt(math.pi) * math.sqrt(hplanck) * (sigma * T)**(3/2) * era**(T/2) * (math.e)**(era/(sigma * T))
 print(f'N = {N}')
 print(math.e)
