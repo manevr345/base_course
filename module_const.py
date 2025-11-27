@@ -1,0 +1,11 @@
+g = 9.8
+G = 6.67 * 10**(-11)
+earth_mass = 5.9722 * 10**24
+planck_const = 6.63 * 10**(-34)
+water_density = 1000
+t_kipenia_vody = 100
+t_plavlenia_vody = 0
+c_vody = 4200
+ed_plavlenia_vody = 3.4 *10**5
+L_ed_paroobrz_vody = 2.3 * 10**6
+sigma_steff_bolc = 5.67 * 10**(-8)
