@@ -8,8 +8,6 @@ def notfoundnumber(b):
     while True:
         if newnumber != b:
             return newnumber
-        else:
-            continue
-newnumbercall = list(map(notfoundnumber, lista))
+newnumbercall = list(map(notfoundnumber, lista ))
 print(newnumbercall[0])
 
