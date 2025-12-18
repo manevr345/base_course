@@ -12,7 +12,8 @@ def elipse_plot_e(fita=np.pi/2):
     e = np.arange(0.1, 1, 0.1)
     print(p)
     print(e)
-    r = p[random.randint(0, len(p))]/(1 + e*np.cos(fita))
+    s = random.randint(0, len(p))
+    r = [p[s]/(1 + i*np.cos(fita)) for i in e ]
     plt.plot(e, r)
     plt.savefig('grafic')
 elipse_plot_e()
