@@ -1,14 +1,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.animation import FuncAnimation
-t = 0.12*np.pi
+
 # создаем анымацию и протсранство для нее
 fig, ax = plt.subplots()
 
 # Объект анимации 
 anim_object, = plt.plot([], [], '-', lw =2)
 x, y = [], []
-t = np.linspace(0, 12*np.pi)
+t = np.linspace(0, 12*np.pi, 500)
 ax.set_xlim(-5, 5)
 ax.set_ylim(-5, 5)
 def update(frame):

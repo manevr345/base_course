@@ -7,7 +7,7 @@ fig, ax = plt.subplots()
 anim_object, = plt.plot([], [], '-', lw =2)
 plt.axis('equal')
 x, y = [], []
-t = np.linspace(0, 2*np.pi)
+t = np.linspace(0, 2*np.pi, 100)
 ax.set_xlim(-20, 20)
 ax.set_ylim(-20, 20)
 def update(frame):
